@@ -1,0 +1,33 @@
+$bgcolor: lightblue;
+$bgcolor-1: white;
+$textcolor: black;
+$fontsize: 18px;
+$font-family-base: Lucida;
+$border-radius: 5px;
+
+.main-wrapper {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+  font-family: $font-family-base;
+  width:100%;
+  height:100vw;
+}
+
+.form-container {
+  background-color: $bgcolor-1;
+  width:400px;
+  height:500px;
+}
+
+.poll-container {
+  margin: 80px auto 0px auto;
+  min-height: 100px;
+  background-color: $bgcolor-1;
+  width:400px;
+  height: auto;
+  padding: 50px;
+}
+
+
+
